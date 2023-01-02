@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>ERR MP3 PLAYER</title>
+  </head>
+
+  <body>
+    <div class="loader">
+      <div class="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <h1 id="title">Errorify<span>Music Player</span></h1>
+      <div class="albums flex">
+        <a href="./raftaar.html">
+          <div class="overlay"> (Explicit Warning)<br>Hard Drive Vol. 1 Album</div>
+          <img src="./images/raftaar/raftaar.jpeg" alt="raftaar album" />
+        </a>
+
+        <a href="./stan.html">
+          <div class="overlay">INSAAN Album</div>
+          <img src="./images/stan/stan.jpeg" alt="stan album" />
+        </a>
+
+        <a href="./king.html">
+          <div class="overlay">Champagne Talk Album</div>
+          <img src="./images/king/king.jpeg" alt="king album" />
+        </a>
+
+        <a href="./ritviz.html">
+          <div class="overlay">Jeet Album</div>
+          <img src="./images/ritviz/ritviz jeet.jpeg" alt="ritviz album" />
+        </a>
+      </div>
+      <div>
+<center>
+  <iframe    
+      width="360"
+          height="215"
+          src="https://www.youtube.com/embed/xrMxhtRE3z4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <iframe
+          width="360"
+          height="215"
+          src="https://www.youtube.com/embed/6ne3oAKKjic" 
+                    title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <iframe
+          width="360"
+          height="215"
+          src="https://www.youtube.com/embed/z7VpSjiZT9M"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <iframe
+          width="360"
+          height="215"
+          src="https://www.youtube.com/embed/F2ORAgbHck8"
+                    title="Arjun Kanungo, Momina Mustehsan - Aaya Na Tu"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </center>
+      </div>
+    </div>
+    <script>
+      setInterval(() => {
+        document.querySelector(".loader").classList.add("hidden");
+      },1000);
+    </script>
+  </body>
+</html>

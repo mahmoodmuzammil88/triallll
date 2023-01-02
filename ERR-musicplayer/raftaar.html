@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/hello1.css">
+  <title>ERR - Hard Drive Vol. 1 Album</title>
+</head>
+
+<body>
+  <div class="sidebar">
+    <button id="x-sidebar">
+      <i class="fa fa-times-circle" aria-hidden="true"></i>
+    </button>
+    <button id="song-select" class="action-btn">JASHAN-E-HIPHOP</button>
+    <button id="song-select" class="action-btn">RAASHAH</button>
+    <button id="song-select" class="action-btn">NO CHINA</button>
+    <button id="song-select" class="action-btn">SPEED SE BADHO</button>
+    <button id="song-select" class="action-btn">GANGNUM</button>
+    <button id="song-select" class="action-btn">NEVER BACK DOWN</button>
+    <button id="song-select" class="action-btn">BLACK SHEEP</button>
+    <button id="song-select" class="action-btn">ICE</button>
+    <button id="song-select" class="action-btn">F16</button>
+    <button id="song-select" class="action-btn">KAALI CAR</button>
+  </div>
+
+  <a href="/"><i id="back" class="fa fa-chevron-circle-left" aria-hidden="true"></i></a>
+
+  <div class="player">
+
+    <div class="display">
+      <img class="disc" src="./images/raftaar/raftaar.jpeg" alt="">
+    </div>
+
+    <audio src="" id="audio"></audio>
+    <div class="info">
+      <img id="cover" src="" alt="">
+
+      <div class="navigation">
+        <div id="title">JASHAN-E-HIPHOP</div>
+        <div class="progress-cont">
+          <div class="progress"></div>
+          <p id="currentTime">3:01</p>
+        </div>
+
+        <div class="controls">
+          <button id="prev" class="action-btn">
+            <i class="fa fa-backward" aria-hidden="true"></i>
+          </button>
+
+          <button id="play" class="action-btn big">
+            <i class="fa fa-play" aria-hidden="true"></i>
+          </button>
+
+          <button id="next" class="action-btn">
+            <i class="fa fa-forward" aria-hidden="true"></i>
+          </button>
+
+          <button id="list" class="action-btn">
+            <i class="fa fa-list-ul" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="./js/musicPlayer.js"></script>
+  <script src="./js/raftaar.js"></script>
+</body>
+
+</html>
